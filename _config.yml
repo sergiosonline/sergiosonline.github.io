@@ -16,12 +16,21 @@
 title: Hitchens
 email: hello@patdryburgh.com
 description: >- # this means to ignore newlines until "baseurl:"
+<<<<<<< Updated upstream
   An inarguably well-designed Jekyll theme.
 baseurl: "/hitchens" # the subpath of your site, e.g. /blog
 url: "https://patdryburgh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 icon: /assets/images/icon-512.png
 twitter_username: patdryburgh
 github_username:  patdryburgh
+=======
+  A place for my stuff, mostly fictional
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sergiosonline.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+icon: /assets/images/icon-514.png
+feed_icon: /assets/images/icon-514.png
+github_username:  sergiosonline
+>>>>>>> Stashed changes
 
 # Build settings
 markdown: kramdown
