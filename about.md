@@ -8,7 +8,7 @@ title: About
 <br>
 
 <p style="text-indent: 0;">
-We've probably met before. In case we haven't, I'm Sergio and I like to write. Most of my life I wrote for others: Essays, reports, assignments, congratulatory letters, never once really writing for myself. That changed in the summer of 2026.
+We've probably met before. In case we haven't, I'm Sergio and I like to write. Most of my life I wrote for others: Essays, reports, assignments, congratulatory letters. I never quite wrote for myself. That changed in the summer of 2026.
 </p>
 
 I draw my inspiration from the absurdity of modern living and the timelessness of introspection. I'm drawn to the small, mortifying moments that together form our daily lives, which more often than not lead to a disappointing realization or interaction. There's hope here, though! We can dream and in doing so pave a path for a life worth living.
