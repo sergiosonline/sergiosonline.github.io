@@ -11,7 +11,7 @@ It was 5PM on a Tuesday. Jon left his accounting job to grab the subway. He was 
 
 —”Pardon me. I work at XYZ inc. too. I’m Lev. Jon, right?”
 
-—”Yes, I’m Jon. Nice to meet you.”
+—”Yes. Nice to meet you.”
 
 —”Wanted to say good job on your presentation today. The Vice President seemed to really like it. You must have done a lot of work for it.”
 
@@ -33,7 +33,7 @@ The next morning Jon delivered his presentation. He left work at 5PM and rushed 
 
 —”Jon, hey! Deema. I work with Lev.”
 
-—”Great, great… I met Lev the other day. They gave me a good note about the unicorns.”
+—”Great, great… I met them the other day. They gave me a good note about the unicorns.”
 
 —”Yeah, it worked great. Lev actually told me about it and I really enjoyed your re-do today.
 
@@ -47,9 +47,9 @@ The next morning Jon delivered his presentation. He left work at 5PM and rushed 
 
 <br>
 
-Jon thanked Deema. He knew what to do again and let the Vice President know about the repeat. Not waiting for the answer, he moved on to redo the whole presentation. He got no sleep.
+Jon thanked Deema. He knew what to do again and let the Vice President know about the repeat. Not waiting for the answer, he moved on to redo the presentation and supporting materials. He got no sleep.
 
-That Thursday morning he rushed out of the door a few minutes later than usual. The morning was warm and stifling, its air congealed and difficult to push through the lungs. Jon made it to work late, unshaved, coffee and sweat stains on his day-old shirt. Jon delivered his presentation. That afternoon his boss called him into his office. They hadn’t seen each other in a few weeks.
+That Thursday morning he rushed out of the door a few minutes later than usual. The morning was warm and stifling, its air congealed and difficult to push through the lungs. Jon made it to work late, unshaved, coffee and sweat stains on his day-old shirt. He delivered his presentation. That afternoon Jon's boss called him into his office. They hadn’t seen each other in a few weeks.
 
 <br>
 
@@ -57,7 +57,7 @@ That Thursday morning he rushed out of the door a few minutes later than usual. 
 
 —”Thanks. Hope your vacation was great. What can I help you with?”
 
-—”Jon, you’ve been with us for a few years now. Three, right?”
+—”Hey, you’ve been with us for a few years now. Three, right?”
 
 —”Correct, three years, turning four nex—”
 
@@ -65,7 +65,7 @@ That Thursday morning he rushed out of the door a few minutes later than usual. 
 
 —”What do you mean? I thought it was pretty good.”
 
-—”Jon, let me be frank with you: It was bullshit. A sizzling pile of it.”
+—”Let me be frank with you: It was bullshit. A sizzling pile of it.”
 
 —”I… disagree. I spoke to Lev and Deema and they coached me on how to make it even bett—.”
 
@@ -73,8 +73,8 @@ That Thursday morning he rushed out of the door a few minutes later than usual. 
 
 —”But I worked so hard on those presentations. I was told they landed well…” Jon took a long pause and stared down at his shoes. He looked up. “Look, I’m sorry. I think I can fix it… What if I used centaurs? Lots of them!”
 
-—”Centaurs, Jon? YES, centaurs! Wow, that’s brilliant. Really good. You know what? I was saving this for a special day and I think that’s today. Take it! It’s a watch, made of golem skin. You’ve earned it.”
+—”Centaurs, Jon? YES, centaurs! Wow, that’s brilliant. Really good." He paused for a moment. "You know what? I was saving this for a special day and I think that’s today. Take it! It’s a watch, made of golem skin. You’ve earned it.”
 
 <br>
 
-You can tell what happens next: Jon let out tears and thanked his boss profusely. He went home and crafted those slides. He adjusted them to suit the creature of the day, working through the infinite bestiary of people’s imaginations. His ambition was never-ending, it was all-consuming. He dreamed of promotions, of making partner, of taking over the firm. He only made it to junior manager the following year before he was abruptly laid off due to XYZ’s shift towards Artificial FlatulenceTM.
+You can tell what happens next: Jon let out tears and thanked his boss profusely. He went home and crafted those slides. He adjusted them to suit the creature of the day, working through the infinite bestiary of people’s imaginations. His ambition was never-ending, it was all-consuming. He dreamed of promotions, of making partner, of taking over the firm. He only made it to junior manager the following year before he was abruptly laid off due to XYZ’s shift towards Artificial Flatulenceᵀᴹ.
