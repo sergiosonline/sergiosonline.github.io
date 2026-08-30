@@ -7,4 +7,4 @@ title: Contact Me
 
 <br>
 
-<p style="text-align: center; text-indent: 0;"><a href="https://www.linkedin.com/in/sergio-e-betancourt/">Linkedin</a></p>
+<p style="text-align: center; text-indent: 0;">Curious about my day job? <a href="https://www.linkedin.com/in/sergio-e-betancourt/">LinkedIn</a></p>
