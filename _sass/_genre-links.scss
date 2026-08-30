@@ -1,7 +1,16 @@
+.content-kicker {
+  margin: 3em 0 0;
+  text-align: center;
+  font-size: .8125em;
+  font-variant: small-caps;
+  letter-spacing: .08em;
+  color: $muted-text-color;
+}
+
 .genre-links {
   display: flex;
   flex-direction: column;
-  margin: 2em 0;
+  margin: .75em 0 2em;
   @media (min-width: $on-bigphone) {
     flex-direction: row;
   }
