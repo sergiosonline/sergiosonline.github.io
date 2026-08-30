@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+{% if site.data.menu %}
+  {% include menu.html %}
+{% else %}
+  {% include back-link.html %}
+{% endif %}
+
+<main class="home" id="main" role="main" aria-label="Content">
+
+  <h1 class="content-title divided">
+    {{ page.title }}
+  </h1>
+
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      {% include post-list-item.html %}
+    {% endfor %}
+  </ul>
+
+  {% if paginator.total_pages > 1 %}
+
+    <div class="post-pagination">
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="pagination-next btn">&lang;&nbsp;Older</a>
+      {% else %}
+        <span>&nbsp;</span>
+      {% endif %}
+      <span class="pagination-number">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="pagination-previous btn">Newer&nbsp;&rang;</a>
+      {% else %}
+        <span>&nbsp;</span>
+      {% endif %}
+    </div>
+
+  {% endif %}
+
+</main>
