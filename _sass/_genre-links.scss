@@ -1,0 +1,50 @@
+.genre-links {
+  display: flex;
+  flex-direction: column;
+  margin: 2em 0;
+  @media (min-width: $on-bigphone) {
+    flex-direction: row;
+  }
+}
+
+.genre-link {
+  display: block;
+  flex: 1 1 0;
+  text-align: center;
+  padding: 1.5em 1em;
+  color: $text-color;
+  text-decoration: none;
+  transition: opacity .125s ease-in-out;
+  border-bottom: 1px solid $muted-text-color;
+  @media (min-width: $on-bigphone) {
+    border-bottom: 0;
+  }
+  &:hover,
+  &:focus {
+    opacity: .6;
+  }
+  & + & {
+    @media (min-width: $on-bigphone) {
+      border-left: 1px solid $muted-text-color;
+    }
+  }
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.genre-link__title {
+  display: block;
+  font-size: 1.75em;
+  font-variant: small-caps;
+  letter-spacing: .03em;
+}
+
+.genre-link__count {
+  display: block;
+  margin-top: .375em;
+  font-size: .75em;
+  color: $muted-text-color;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}

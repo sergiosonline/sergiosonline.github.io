@@ -39,9 +39,14 @@ markdown: kramdown
 #   - vendor/ruby/
 
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
 hide_search: true
 
-paginate: 3
-paginate_path: "/page/:num/"
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/page/:num/'
+  title: ':title — Page :num'
+  sort_field: 'date'
+  sort_reverse: true
