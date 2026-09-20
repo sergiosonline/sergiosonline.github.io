@@ -20,6 +20,20 @@
   text-align: center;
 }
 
+.post > h1.post-title--dedicated {
+  padding-bottom: .25em;
+  margin-bottom: 0;
+}
+
+.post p.post-dedication {
+  padding: 0 1em 4.25em;
+  text-align: center;
+  text-indent: 0;
+  font-style: italic;
+  font-size: .9375em;
+  color: $muted-text-color;
+}
+
 .post p {
   text-align: justify;
   text-indent: 1.5em;
@@ -33,6 +47,13 @@
 
 .post a:hover {
   background: $highlight;
+}
+
+.post p.scene-break {
+  text-align: center;
+  text-indent: 0;
+  margin: 1.25em auto;
+  color: $muted-text-color;
 }
 
 .post dl,
@@ -62,4 +83,54 @@
   padding: 1em;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.post > .post-nav {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 0 1.5em;
+  align-items: start;
+  margin-top: 2.25em;
+  font-size: .875em;
+  &::before {
+    content: "";
+    @include divider;
+    grid-column: 1 / -1;
+    margin-bottom: 1.1em;
+    opacity: .5;
+  }
+}
+
+.post-nav a {
+  text-decoration: none;
+  transition: opacity .125s ease-in-out;
+}
+
+.post .post-nav a:hover,
+.post .post-nav a:focus {
+  background: none;
+  opacity: .6;
+}
+
+.post-nav__label,
+.post-nav__genre {
+  font-variant: small-caps;
+  letter-spacing: .02em;
+}
+
+.post-nav__label {
+  display: block;
+}
+
+.post-nav__title {
+  display: block;
+  margin-top: .125em;
+  font-size: .8125em;
+  font-style: italic;
+  line-height: 1.35;
+  color: $muted-text-color;
+}
+
+.post-nav__newer {
+  text-align: right;
 }

@@ -11,9 +11,13 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" id="main" role="article" aria-label="Content">
 
   {% if page.title != "" %}
-    <h1 class="post-title divided p-name" itemprop="name headline">
+    <h1 class="post-title{% if page.dedication %} post-title--dedicated{% else %} divided{% endif %} p-name" itemprop="name headline">
       {{ page.title }}
     </h1>
+  {% endif %}
+
+  {% if page.dedication %}
+    <p class="post-dedication divided">{{ page.dedication }}</p>
   {% endif %}
 
   <div class="post-content e-content" itemprop="articleBody">
@@ -26,6 +30,43 @@ layout: default
     {% endif %}
     <time class="post-date dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
   </div>
+
+  {% assign genre = page.categories | first %}
+  {% if genre %}
+    {% assign genre_posts = site.categories[genre] %}
+    {% assign newer_post = nil %}
+    {% assign older_post = nil %}
+    {% for genre_post in genre_posts %}
+      {% if genre_post.url == page.url %}
+        {% unless forloop.first %}
+          {% assign newer_index = forloop.index0 | minus: 1 %}
+          {% assign newer_post = genre_posts[newer_index] %}
+        {% endunless %}
+        {% unless forloop.last %}
+          {% assign older_post = genre_posts[forloop.index] %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+    <nav class="post-nav" aria-label="More {{ genre }}">
+      <span class="post-nav__older">
+        {% if older_post %}
+          <a href="{{ older_post.url | prepend: site.baseurl }}" rel="prev">
+            <span class="post-nav__label">&lsaquo; Older</span>
+            <span class="post-nav__title">{{ older_post.title }}</span>
+          </a>
+        {% endif %}
+      </span>
+      <a href="{{ '/' | append: genre | append: '/' | prepend: site.baseurl }}" class="post-nav__genre">{{ genre | capitalize }}</a>
+      <span class="post-nav__newer">
+        {% if newer_post %}
+          <a href="{{ newer_post.url | prepend: site.baseurl }}" rel="next">
+            <span class="post-nav__label">Newer &rsaquo;</span>
+            <span class="post-nav__title">{{ newer_post.title }}</span>
+          </a>
+        {% endif %}
+      </span>
+    </nav>
+  {% endif %}
 
   {% if site.disqus.shortname %}
     {% include disqus-comments.html %}
