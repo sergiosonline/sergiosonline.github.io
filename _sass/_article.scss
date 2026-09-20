@@ -20,6 +20,20 @@
   text-align: center;
 }
 
+.post > h1.post-title--dedicated {
+  padding-bottom: .25em;
+  margin-bottom: 0;
+}
+
+.post p.post-dedication {
+  padding: 0 1em 4.25em;
+  text-align: center;
+  text-indent: 0;
+  font-style: italic;
+  font-size: .9375em;
+  color: $muted-text-color;
+}
+
 .post p {
   text-align: justify;
   text-indent: 1.5em;

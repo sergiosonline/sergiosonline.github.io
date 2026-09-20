@@ -11,9 +11,13 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" id="main" role="article" aria-label="Content">
 
   {% if page.title != "" %}
-    <h1 class="post-title divided p-name" itemprop="name headline">
+    <h1 class="post-title{% if page.dedication %} post-title--dedicated{% else %} divided{% endif %} p-name" itemprop="name headline">
       {{ page.title }}
     </h1>
+  {% endif %}
+
+  {% if page.dedication %}
+    <p class="post-dedication divided">{{ page.dedication }}</p>
   {% endif %}
 
   <div class="post-content e-content" itemprop="articleBody">
