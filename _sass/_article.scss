@@ -49,6 +49,13 @@
   background: $highlight;
 }
 
+.post p.scene-break {
+  text-align: center;
+  text-indent: 0;
+  margin: 1.25em auto;
+  color: $muted-text-color;
+}
+
 .post dl,
 .post ul,
 .post ol {
