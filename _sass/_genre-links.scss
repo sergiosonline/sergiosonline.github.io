@@ -20,7 +20,7 @@
   display: block;
   flex: 1 1 0;
   text-align: center;
-  padding: 1.5em 1em;
+  padding: 1.5em .5em;
   color: $text-color;
   text-decoration: none;
   transition: opacity .125s ease-in-out;
@@ -52,6 +52,7 @@
 .genre-link__count {
   display: block;
   margin-top: .375em;
+  white-space: nowrap;
   font-size: .75em;
   color: $muted-text-color;
   text-transform: uppercase;
